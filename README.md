@@ -78,5 +78,5 @@ def trace_data(input_key, data_table):
 # Project: RayCrypt (Geometric Ray-Data Mapping)
 # Description: Using ray-surface intersections as a data function.
 Author: Ali Ganji
-License: MIT
+
 
