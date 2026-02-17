@@ -1,13 +1,13 @@
-# OptiCode
+# RayCrypt
 The intersection of **Information Theory** and **Classical Optics**.
 
-# 🚀 Project: OptiCode-Cypher
+# 🚀 Project: RayCrypt
 
 ### *Data Encryption & Compression via Ray-Surface Intersections*
 
 ## 📖 The Concept
 
-Traditional data processing treats tables as flat, linear arrays. **OptiCode** reimagines a data table as a **3D Physical Environment**.
+Traditional data processing treats tables as flat, linear arrays. **RayCrypt** reimagines a data table as a **3D Physical Environment**.
 
 Instead of standard lookup functions, this project uses **Geometric Ray Tracing** as a mathematical transform. By treating data cells as coordinates with physical properties (Refractive Index, Surface Normal, or Reflectivity), we can "probe" data using light transport math.
 
@@ -75,3 +75,9 @@ def trace_data(input_key, data_table):
     return ray_angle # This is your transformed data point
 
 ```
+# ---------------------------------------------------------
+# Project: RayCrypt (Geometric Ray-Data Mapping)
+# Author: Ali Ganji
+# License: MIT
+# Description: Using ray-surface intersections as a data function.
+# ---------------------------------------------------------
