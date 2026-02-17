@@ -75,9 +75,8 @@ def trace_data(input_key, data_table):
     return ray_angle # This is your transformed data point
 
 ```
-# ---------------------------------------------------------
 # Project: RayCrypt (Geometric Ray-Data Mapping)
-# Author: Ali Ganji
-# License: MIT
 # Description: Using ray-surface intersections as a data function.
-# ---------------------------------------------------------
+Author: Ali Ganji
+License: MIT
+
