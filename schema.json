@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "project": "RayCript",
+    "encoding": "Geometric-Ray-Mapping",
+    "version": "1.0.0",
+    "author": "Ali Ganjix"
+  },
+  "geometry": {
+    "shape": "cube",
+    "dimensions": { "width": 10, "height": 10, "depth": 10 },
+    "center": [0, 0, 0]
+  },
+  "laser_settings": {
+    "origin": [0, -15, 0],
+    "direction": [0.1, 1.0, 0.2],
+    "max_bounces": 8,
+    "precision": "float64"
+  },
+  "incident_dictionary": {
+    "faces": [
+      {
+        "id": "top",
+        "normal": [0, 1, 0],
+        "inside_value": "a",
+        "outside_value": "1"
+      },
+      {
+        "id": "bottom",
+        "normal": [0, -1, 0],
+        "inside_value": "b",
+        "outside_value": "2"
+      },
+      {
+        "id": "front",
+        "normal": [0, 0, 1],
+        "inside_value": "c",
+        "outside_value": "3"
+      },
+      {
+        "id": "back",
+        "normal": [0, 0, -1],
+        "inside_value": "d",
+        "outside_value": "4"
+      },
+      {
+        "id": "left",
+        "normal": [-1, 0, 0],
+        "inside_value": "e",
+        "outside_value": "5"
+      },
+      {
+        "id": "right",
+        "normal": [1, 0, 0],
+        "inside_value": "f",
+        "outside_value": "6"
+      }
+    ],
+  }
+}
